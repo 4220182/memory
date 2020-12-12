@@ -1,0 +1,9 @@
+FROM python
+
+# Install source files
+COPY start-up.py /start-up.py
+WORKDIR /
+
+ENTRYPOINT []
+CMD ["python2", "start-up.py", "50", "5"]
+
